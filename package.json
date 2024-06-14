@@ -1,0 +1,18 @@
+{
+  "name": "netlify_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify deploy --prod"
+  },
+  "author": "Arunpragash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "netlify-cli": "^17.27.0",
+    "netlify-lambda": "^0.4.0",
+    "serverless-http": "^3.2.0"
+  }
+}
